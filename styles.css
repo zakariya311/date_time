@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    --black : #000000;
+    --blue : #2ec1ac;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background-color: var(--black);
+    color: var(--blue);
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.common{
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.time{
+    font-size: 6rem;
+}
+
+.date{
+    font-size: 2.5rem;
+}
