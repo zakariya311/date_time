@@ -5,8 +5,8 @@
 
 html {
     font-size: 62.5%;
-    --black : #000000;
-    --blue : #2ec1ac;
+    --black: #000000;
+    --blue: #2ec1ac;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     color: var(--blue);
 }
 
-main{
+main {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -25,16 +25,28 @@ main{
     flex-direction: column;
 }
 
-.common{
+.common {
     display: inline-block;
     padding: 1rem;
     font-weight: 300;
 }
 
-.time{
+.time {
     font-size: 6rem;
 }
 
-.date{
+.date {
     font-size: 2.5rem;
+}
+
+@media (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 37.5em) {
+    html {
+        font-size: 40%;
+    }
 }
